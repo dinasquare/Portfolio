@@ -2,14 +2,14 @@
 
 const CONFIG = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (This is the only required config)
+    username: 'dinasquare', // Your GitHub org/user name. (This is the only required config)
   },
   /**
    * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
    * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
    * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
    */
-  base: '/gitprofile/',
+  base: '/profile/',
   projects: {
     github: {
       display: true, // Display GitHub projects?
@@ -17,7 +17,7 @@ const CONFIG = {
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 8, // How many projects to display.
+        limit: 4, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
           projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['dinasquare/AIML_Work', 'dinasquare/Emotion_Recognition'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -33,133 +33,138 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'Emotion Rcognition',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Developed an emotion recognition system using EfficientNetB0 classification of facial emotions',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://img.freepik.com/free-photo/face-expression-emotional-people-concept_53876-127869.jpg?t=st=1723540613~exp=1723544213~hmac=5e0dc240a986c7ca47d38bc4f8c80da8e44c36118e8380487ef03bd73dfe8f31&w=740',
+          link: 'https://github.com/dinasquare/Emotion_Recognition',
         },
         {
-          title: 'Project Name',
+          title: 'AI/ML Work',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Compiled a diverse collection of AI/ML projects demonstrating various algorithms and techniques..',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://img.freepik.com/free-vector/neural-network-black-outline_78370-3686.jpg?t=st=1723544816~exp=1723548416~hmac=6defc64a2a02d131ca8fa68ab2429bfcce249e89e5726320a6091e40fb0de29e&w=740',
+          link: 'https://github.com/dinasquare/AIML_Work',
         },
       ],
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
-    description: '',
-    imageURL: '',
+    title: 'Portfolio of Gauraangi Praakash',
+    description: 'AI/ML Enthusiast',
+    imageURL: 'srcassetsprofile',
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'gauraangi',
+    twitter: 'Gauraangi',
+    googlescholar:'https://scholar.google.co.in/citations?view_op=list_works&hl=en&user=8Pbd6agAAAAJ',
+    mastodon: '',
     researchGate: '',
     facebook: '',
-    instagram: '',
+    instagram: 'dinasquare.exe',
     reddit: '',
     threads: '',
     youtube: '', // example: 'pewdiepie'
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
-    phone: '',
-    email: 'arifulalamszn@gmail.com',
+    website: '',
+    phone: '7572005777',
+    email: 'gauraangi25@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1UP_c1LTA29S95B11nrRo_YgZ2G4gZKSr/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
+    'Java',
+    'Python',
+    'Machine Learning',
     'JavaScript',
-    'React.js',
     'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
     'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'Indian Institute of Technology(IIT) Kanpur',
+      position: 'Intern',
+      from: 'June 2024',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://www.iitk.ac.in/',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'YOKO Solution Pvt Ltd',
+      position: 'AI Intern',
+      from: 'May 2024',
+      to: 'July 2024',
+      companyLink: 'https://www.itsyoko.com/',
+    },
+    {
+      company: 'Indian Institute of Technology(IIT) Kanpur',
+      position: 'Intern',
+      from: 'June 2023',
+      to: 'August 2023',
+      companyLink: 'https://www.iitk.ac.in/',
     },
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      name: 'Google AI Essentials',
+      year: 'July 2024',
+      link: 'https://www.credly.com/badges/05f6840e-7a5a-4fdf-98a7-2b226cb56586/public_url',
+    },
+    {
+      name: 'CISCO Python Essentials 1',
+      year: 'May 2024',
+      link: 'https://www.credly.com/badges/f95c16f9-88b1-440c-87e8-3aeca7a9807b/public_url',
+    },
+    {
+      name: 'CISCO Python Essentials 2',
+      year: 'May 2024',
+      link: 'https://www.credly.com/badges/f95c16f9-88b1-440c-87e8-3aeca7a9807b/public_url',
     },
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Amity University Lucknow',
+      degree:
+        'B.Tech CSE with Honours in Artificial Intelligence and Machine Learning',
+      from: '2021',
+      to: '2025',
+      cgpa: '8.5'
     },
   ],
   publications: [
     {
-      title: 'Publication Title',
+      title: 'Predictive Modeling for Chronic Diseases',
       conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      journalName: 'European Chemical Bulletin',
+      authors: 'DPK, Gauraangi Praakash, Prof. Arnab Bhattacharya',
+      link: 'https://naeeem.shop/uploads/paper/1bccc5ed07e3fbb291a5d132b48ba2aa.pdf',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'This paper discusses the application of machine learning techniques, specifically K-Nearest Neighbors (KNN) and Convolutional Neural Networks (CNN), to predict and manage chronic diseases by leveraging health-related data, enhancing prediction accuracy, and empowering patients through mobile applications.',
     },
     {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
+      title: 'A Biometric-Based Encryption Method for Secure Data Sharing in Cloud Environment',
+      conferenceName: 'SNSFAIT',
       journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      authors: 'Gauraangi Praakash, Pooja Khanna, Sachin Kumar, Pragya',
+      link: 'https://www.bibsonomy.org/bibtex/1944b86fd96d4a152ca4e3d87d5f2ea75',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'This research article explores the use of Revocable Identity-Based Encryption (IBE) in cloud computing, highlighting its efficiency in secure data management and the reduction of processing time through a Generalized Set Product (GSP) technique.',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    source: '', // medium | dev
+    username: '', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
@@ -171,7 +176,7 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'synthwave',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
@@ -234,11 +239,7 @@ const CONFIG = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+  footer: `Made by Gauraangi 🦕`,
 
   enablePWA: true,
 };
